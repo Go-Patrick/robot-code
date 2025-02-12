@@ -15,6 +15,7 @@ pipeline {
             steps {
                 script {
                     sh """
+                        apt-get update && apt-get install -y nodejs npm
                         python -m venv ${VENV_DIR}
                         . ${VENV_DIR}/bin/activate
                         pip install --upgrade pip
