@@ -1,6 +1,5 @@
-datasources:2026b208900407d11246193c4d2815e8b640b188
+datasources:c466453fc7202024dd26471fdccbf1c7e27240bb
 commandlineoptions:97d170e1550eee4afc0af065b78cda302a97674c
 suitesfrom:no-suites-from-option
-file:a87cf81e5eebc20e72f86f4a692f64fe1efcdc1f
---suite Getiq
---suite Disc.Getdisc
+file:86e3ac0871b3abfa5caa50518183fa9c9fd4843f
+--suite SGBAuto.mainFlow
