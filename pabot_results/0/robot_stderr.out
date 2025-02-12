@@ -1,2 +1,0 @@
-C:\Users\admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\protobuf\runtime_version.py:112: UserWarning: Protobuf gencode version 5.27.2 is older than the runtime version 5.28.1 at playwright.proto. Please avoid checked-in Protobuf gencode that can be obsolete.
-  warnings.warn(
