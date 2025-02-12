@@ -41,7 +41,7 @@ pipeline {
 
         stage('Publish Results') {
             steps {
-                robot outputPath: 'results'
+                robot outputPath: '.'
             }
         }
     }
