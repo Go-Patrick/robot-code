@@ -16,7 +16,7 @@ pipeline {
                 script {
                     sh """
                         python -m venv ${VENV_DIR}
-                        source ${VENV_DIR}/bin/activate
+                        . ${VENV_DIR}/bin/activate
                         pip install --upgrade pip
                         pip install robotframework-browser
                         rfbrowser init
@@ -30,7 +30,7 @@ pipeline {
             steps {
                 script {
                     sh """
-                        source ${VENV_DIR}/bin/activate
+                        . ${VENV_DIR}/bin/activate
                         pabot --processes 2 ./SGBAuto
                     """
                 }
